@@ -1,0 +1,110 @@
+*{ margin: 0%;
+padding: 0%;}
+
+body{
+  font-family: 'Noto Sans', sans-serif;
+}
+#wrapper {
+    max-width: 1200px;
+    margin: auto;
+background-color: #EFCA7F;
+}
+/* header */ 
+header a{color: aqua;
+border:#201704 2px solid;
+border-radius: 5px;
+padding: 2px 15px 2px 15px;
+display: inline;}
+
+header a:hover{background-color: rgb(30, 30, 196);}
+.watch{ padding-left: 850px;
+text-decoration: none;}
+
+
+a:hover { color: blueviolet;}
+header {
+    height: 270px;
+    padding: 1em 2em 2em 2em;
+     background:
+         linear-gradient(260deg, rgba(200,91,49,1) 45%, rgba(200,91,49,0) 100%) ,
+          url(gohs/bannerfinal.png) no-repeat left top ;}
+
+header h1 img {padding-left: 850px;}
+header p {font-style: italic;
+  width: 400px;
+ padding-left:780px;
+ padding-bottom: 25px;
+}
+/* end of header */
+ /*nav bar */
+
+ nav { background-color: #C85B31 ; }
+ nav a {
+  display: block;
+  padding: 2px;
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {background-color: #EFCA7F;}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+    overflow: hidden;
+}
+li {
+  display: inline;
+  float: left;
+  border-right: 1px solid #bbb;
+}
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 2px 16px;
+  text-decoration: none;
+}
+
+li:last-child {
+  border-right: none;
+}
+/* end of nav */
+
+
+div.left{ width:40%;margin:15px;float: left;}
+div.left p{padding: 5px;}
+div.right{float:right;width:40%;padding-top: 40px;}
+div.right p{padding: 5px;}
+
+
+/* Episodes */
+.episodes{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px;
+  padding: 5px;
+ 
+}
+.card{
+  width: 90%;
+  border:solid 2px #C85B31;
+  border-radius: 5px;
+  margin-bottom: 0.5em;
+}
+
+.card img{
+width: 100%;
+border-radius: 5px;
+}
+.card p{
+padding: 0 0.5em;
+}
+.card h4{
+padding: 0.5em 0.5em 0 0.5em;
+}
+
+/* End of Episodes */
+body h4 p{ clear: both;}
+footer{ clear: both;}
